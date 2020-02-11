@@ -20,7 +20,7 @@
                                 <th></th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="tableBody">
                             <!-- Iteramos cada elemento de la lista de clientes -->
                             <c:forEach var="cliente" items="${clientes}" varStatus="status" >
                                 <tr>
