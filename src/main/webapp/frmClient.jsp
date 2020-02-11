@@ -51,6 +51,11 @@
                             <i class="fas fa-eye"></i> Ver Karts
                         </a>
                     </div>
+                    <div class="col-md-3">
+                        <a href="${pageContext.request.contextPath}/listClients.json" class="btn btn-primary btn-block">
+                            <i class="fas fa-eye"></i> Ver JSON
+                        </a>
+                    </div>
 		        </div>
 		    </div>
 		</section>
